@@ -1,4 +1,4 @@
-const loginBtn =document.getElementById('login-btn');
+const loginBtn=document.getElementById('login-btn');
 // console.log(loginBtn);
 loginBtn.addEventListener('click',function(){
     // Select email and password field > take email and password value
@@ -16,5 +16,4 @@ loginBtn.addEventListener('click',function(){
         // console.log("You are a hacker");
         alert('You are a hacker');
      }
-
 });
